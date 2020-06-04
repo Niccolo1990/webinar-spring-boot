@@ -1,0 +1,17 @@
+###
+
+POST http://localhost:8080/products
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Microservices in practice (e-book)",
+  "description": "Book",
+  "price": 200
+}
+
+###
+
+GET http://localhost:8080/products?nameFragment=Micro
+Accept: application/json
+Content-Type: application/json
